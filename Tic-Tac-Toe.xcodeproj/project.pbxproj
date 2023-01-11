@@ -6,11 +6,24 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1FBC084F296E1F7D005F84C1 /* main.lua.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = main.lua.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1FBC0846296E1E41005F84C1 = {
 			isa = PBXGroup;
 			children = (
+				1FBC084E296E1EA0005F84C1 /* src */,
 			);
+			sourceTree = "<group>";
+		};
+		1FBC084E296E1EA0005F84C1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC084F296E1F7D005F84C1 /* main.lua.md */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
